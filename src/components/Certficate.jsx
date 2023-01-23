@@ -7,17 +7,22 @@ const Certificate = () => {
     <div className="container">
       <div className="logo-photo-cotainer">
         <div className="logo">
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="logo" />
         </div>
-        <div className="cer"></div>
+        <div className="cer">
+          <span>CERTIFICATE</span>
+          <span>OF APPRECIATION</span>
+        </div>
         <div className="passport">
-          <img src={Img} alt="" />
+          <img src={Img} alt="passport" />
         </div>
       </div>
 
-      <h2></h2>
+      <h2>PROUDLY PRESENTED TO</h2>
       <div className="user-name">
-        <span></span>
+        <span>
+          <i>Nsan Dan</i>
+        </span>
         <hr />
       </div>
       <p>
