@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+.overall{
+    background-color: whitesmoke;
+        width: 60%;
+        height: 90vh;
+        margin: 10px;
+        padding: 20px;
+        /* border: 2px solid orange; */
+        box-shadow: 2px 2px 2px 2px gray,-2px -2px 2px 2px gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+
+.container{
+    background-color: whitesmoke;
+    width: 90%;
+    height:69vh;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+   
+    border: 2px solid orange;
+   
+    
+}
+.container h2{
+    letter-spacing: 5px;
+    text-align: center;
+    margin-left: 4rem;
+    padding: 1rem 0;
+}
+.logo{
+    width: 160px;
+}
+.passport{
+    width: 80px;
+    height: 80px;
+}
+.logo-photo-cotainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.certi{
+    display: flex;
+    flex-direction: column;
+   
+}
+.certi div{
+    font-size: 3.7rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.certi span{
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 17px;
+}
+.user-name hr{
+width:300px;
+}
+.presented{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-name span{
+font-family: 'Allura', cursive;
+font-size: 4rem;
+font-weight: 500;
+margin: 0;padding: 0;
+
+}
+.comment{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.comment p{
+    width: 65%;
+    font-size: 16px;
+  
+}
+.date-signature{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
