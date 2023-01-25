@@ -6,7 +6,7 @@
   height: 90vh;
   margin: 10px;
   padding: 20px;
-  /* border: 2px solid orange; */
+  
   box-shadow: 2px 2px 2px 2px gray, -2px -2px 2px 2px gray;
   display: flex;
   justify-content: center;
@@ -29,14 +29,12 @@
 .blue-con2 {
 width: 65%;
     height: 82vh;
-  /* border: 2px solid gray; */
-  /* padding: 4px; */
+  
 clip-path: polygon(43% 94%, 94% 94%, 94% 59%, 100% 59%, 100% 84%, 100% 100%, 43% 100%);
   background-color: rgb(5, 5, 40);
   position: absolute;
-    left: 319px;
- 
-    top: -27px;
+    left: 409px;
+        top: -24px;
 }
 .first-border2 {
 width: 91%;
@@ -46,10 +44,8 @@ width: 91%;
   left: 53px;
   z-index: 0;
  
-/* clip-path: polygon(69% 100%, 99% 99%, 100% 35%, 100% 35%, 100% 83%, 100% 100%, 69% 100%); */
-/* clip-path: polygon(100% 58%, 100% 58%, 100% 100%, 65% 100%, 66% 99%, 99% 99%); */
-/* clip-path: polygon(100% 61%, 99% 62%, 99% 99%, 60% 99%, 61% 100%, 100% 100%); */
-/* clip-path: polygon(100% 62%, 100% 61%, 99% 99%, 60% 99%, 61% 100%, 100% 100%); */
+
+
 clip-path: polygon(100% 43%, 99% 42%, 99% 99%, 69% 99%, 69% 100%, 100% 100%);
   top:71px
 }
@@ -61,9 +57,8 @@ width: 92%;
     height: 63vh;
     background-color: orange;
     position: absolute;
-    left: 54px;
-    z-index: 0;
-    top: 80px;
+left: 79px;
+    top: 79px
 }
 .o-2{
 
@@ -72,9 +67,10 @@ width: 90%;
     height: 62vh;
     background-color: orange;
     position: absolute;
-    left: 59px;
+left: 94px;
     z-index: 0;
-    top: 78px;
+    top: 79px;
+
 }
 .first-border {
   width: 60%;
@@ -194,4 +190,109 @@ clip-path: polygon(0 12%, 0 0, 9% 0, 58% 0, 59% 1%, 1% 1%, 1% 57%, 0 57%);
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-weight: 600;
 }
+@media screen and (max-width: 768px) {
+.first-border{
+top: 20px;
+    left: 20px;
+}
+.container{
+height: 82vh;
+width: 86%;
+}
+.orange-con1{
+left: 16px;
+    top: 16px
+}
+.orange-con2{
+    left: 23px;
+        top: 23px;
+}
+.logo{
+    width: 87px;
+}
+.certi div{
+font-size: 2.7rem;
+    letter-spacing: 2px;
+    margin: 0 4rem;
+
+}
+.certi span{
+    font-weight: 600;
+        letter-spacing: 3px;
+        font-size: 15px;
+}
+.logo-photo-cotainer{
+    width: 97%
+    
+}
+.first-border2{
+    left: 34px;
+        z-index: 0;
+      
+        top: 87px;
+}
+.blue-con2{
+top: 47px;
+    left: 241px;
+}
+.o-2{
+top: 149px;
+    left: 35px;
+}
+}
+.o-1{
+    top: 152px;
+        left: 30px;
+    }
+    .container h2{
+        letter-spacing: 1px;
+            text-align: center;
+            margin-left: 4rem;
+            padding: 1rem 0;
+    }
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    .first-border{
+        left: 3px;
+            top: 17px;
+    }
+    .orange-con1{
+        left: 7px;
+            top: 19px;
+    }
+    .orange-con2{
+        left: 13px;
+            top: 26px;
+    }
+    .blue-con2{
+    
+            left: 148px;
+                    }
+    .o-1{
+            left: 17px;
+    }
+    .o-2{
+    left: 31px;
+    }
+    .certi div{
+        font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            padding: 0 10px
+        }
+        .container h2{
+            font-size: 1.2rem;
+                letter-spacing: -1px;
+        }
+        .blue-con{
+            left: -12px;
+                top: -14px;
+            }
+        
+    }
