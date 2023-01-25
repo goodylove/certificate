@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../assets/logo.png";
 import Img from "../assets/source03.jpg";
-import "./Certificate.css";
+import "../style/certit.css";
 
 const Certificate = () => {
   return (
@@ -25,7 +25,7 @@ const Certificate = () => {
           </div>
         </div>
 
-        <h2>PROUDLY PRESENTED TO</h2>
+        <div className="proud">PROUDLY PRESENTED TO</div>
         <div className="user-name">
           <span>Nsan Dan</span>
           <hr />

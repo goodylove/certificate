@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+.overall {
+  background-color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.overall .container {
+  border: 2px solid orange;
+}
+
+.overall .container .proud {
+  font-size: 1rem;
+  margin: 2rem 2rem;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.overall .container .logo-photo-cotainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem 0;
+}
+
+.overall .container .logo-photo-cotainer .logo {
+  max-width: 44%;
+}
+
+.overall .container .logo-photo-cotainer .passport {
+  max-width: 44%;
+}
+
+.overall .container .logo-photo-cotainer .certi {
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.overall .container .logo-photo-cotainer .certi div {
+  font-size: 1.9rem;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+.overall .container .logo-photo-cotainer .certi span {
+  font-size: 0.9rem;
+}
+
+.overall .container .user-name hr {
+  width: 300px;
+}
+
+.overall .container .user-name span {
+  font-family: "Allura", cursive;
+  font-size: 4rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.overall .container .date-signature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+  margin: 2rem;
+}
+
+.overall .container .comment {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.overall .container .comment p {
+  width: 65%;
+  font-size: 16px;
+}
+/*# sourceMappingURL=certit.css.map */
