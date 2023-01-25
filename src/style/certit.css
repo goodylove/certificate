@@ -12,10 +12,59 @@
           align-items: center;
   width: 100%;
   height: auto;
+  position: relative;
+  margin-top: 3rem;
+}
+
+.overall .first-border {
+  -webkit-clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
+          clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
+  background-color: orange;
+  width: 91%;
+  height: 82vh;
+  position: absolute;
+  left: 4%;
+  top: 0.1%;
+  padding: 3rem;
 }
 
 .overall .container {
   border: 2px solid orange;
+  width: 80%;
+  margin: 1.5rem 0;
+}
+
+.overall .container .blue-con {
+  -webkit-clip-path: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
+          clip-path: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
+  background-color: #050528;
+  width: 85%;
+  height: 80vh;
+  position: absolute;
+  top: 1.5%;
+  left: 6%;
+}
+
+.overall .container .orange-con1 {
+  -webkit-clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+          clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+  background-color: orange;
+  width: 75%;
+  height: 80vh;
+  position: absolute;
+  top: 7%;
+  left: 11%;
+}
+
+.overall .container .orange-con2 {
+  -webkit-clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+          clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+  background-color: orange;
+  width: 70%;
+  height: 80vh;
+  position: absolute;
+  left: 13%;
+  top: 8.4%;
 }
 
 .overall .container .proud {
@@ -59,7 +108,7 @@
 
 .overall .container .logo-photo-cotainer .certi div {
   font-size: 1.9rem;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 5px;
 }
 
@@ -110,5 +159,13 @@
 .overall .container .comment p {
   width: 65%;
   font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .overall {
+    width: 70%;
+    position: relative;
+    padding: 3rem;
+  }
 }
 /*# sourceMappingURL=certit.css.map */

@@ -1,6 +1,6 @@
 // color
 $border-color-one: orange;
-$border-color-two: darkblue;
+$border-color-two:  rgb(5, 5, 40);
 $secondary-color: red;
 $primary-color:whitesmoke;
 
@@ -13,7 +13,7 @@ $all-p :1.4rem;
 // clipath-one
 $top-clip-parth-1: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
 $top-clip-parth-blue: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
-;
+
 $top-clip-orange-one: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
 $top-clip-orange-two: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
 
@@ -32,9 +32,55 @@ $top-clip-orange-two-bottom: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99%
     align-items: center;
     width: 100%;
     height: auto;
+    position: relative;
+    margin-top: 3rem;
+    // padding: 3rem;
+    
+.first-border{
+    clip-path: $top-clip-parth-1;
+    background-color: $border-color-one;
+    width: 91%;
+     height: 82vh;
+      position: absolute;
+     left: 4%;
+        top:0.1%;
+        padding: 3rem;
+}
 
-.container{
+.container{ 
     border: 2px solid$border-color-one ;
+    width: 80%;
+    margin:1.5rem 0;
+
+
+    .blue-con {
+            clip-path: $top-clip-parth-blue ;
+            background-color: $border-color-two;
+            width: 85%;
+            height: 80vh;
+            position: absolute;
+            top: 1.5%;
+            left: 6%;
+    
+        }
+        .orange-con1{
+            clip-path:$top-clip-orange-one ;
+            background-color:$border-color-one ;
+            width: 75%;
+            height: 80vh;
+            position: absolute;
+            top: 7%;
+            left: 11%;
+        }
+        .orange-con2{
+            clip-path:$top-clip-orange-two;
+            background-color: $border-color-one;
+            width: 70%;
+            height: 80vh;
+            position: absolute;
+            left: 13%;
+            top:8.4%
+        }
     .proud{
         font-size: 1rem;
         margin: 2rem 2rem;
@@ -61,7 +107,7 @@ $top-clip-orange-two-bottom: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99%
              flex-direction: column;
              div{
                 font-size: 1.9rem;
-                font-weight: 500;
+                font-weight: 700;
                 letter-spacing: 5px;
              }
              span{
@@ -100,4 +146,13 @@ $top-clip-orange-two-bottom: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99%
                     font-size: 16px;
                 }
         }
+}
+
+@media screen and (min-width: 768px) {
+    .overall{
+        width: 70%;
+        position: relative;
+        padding: 3rem;
+    }
+    
 }
