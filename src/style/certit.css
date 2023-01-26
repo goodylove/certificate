@@ -10,9 +10,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
+  width: 78%;
   height: auto;
   position: relative;
+  -webkit-box-shadow: 2px 2px 2px 2px gray, -2px -2px 2px 2px gray;
+          box-shadow: 2px 2px 2px 2px gray, -2px -2px 2px 2px gray;
   margin-top: 3rem;
 }
 
@@ -21,11 +23,11 @@
           clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
   background-color: orange;
   width: 91%;
-  height: 82vh;
+  height: 60vh;
   position: absolute;
   left: 4%;
   top: 0.1%;
-  padding: 3rem;
+  padding-top: 3rem;
 }
 
 .overall .container {
@@ -68,10 +70,12 @@
 }
 
 .overall .container .proud {
-  font-size: 1rem;
-  margin: 2rem 2rem;
-  letter-spacing: 2px;
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem 3rem;
+  letter-spacing: 0px;
   font-weight: 500;
+  padding-left: 3rem;
 }
 
 .overall .container .logo-photo-cotainer {
@@ -107,13 +111,15 @@
 }
 
 .overall .container .logo-photo-cotainer .certi div {
-  font-size: 1.9rem;
-  font-weight: 700;
-  letter-spacing: 5px;
+  font-size: 4rem;
+  font-weight: 500;
+  letter-spacing: 2px;
 }
 
 .overall .container .logo-photo-cotainer .certi span {
-  font-size: 0.9rem;
+  font-size: 2rem;
+  letter-spacing: 5px;
+  font-weight: 500;
 }
 
 .overall .container .user-name hr {
@@ -138,7 +144,7 @@
       -ms-flex-align: center;
           align-items: center;
   font-weight: 600;
-  margin: 2rem;
+  margin: 3rem;
 }
 
 .overall .container .comment {
@@ -161,11 +167,238 @@
   font-size: 16px;
 }
 
-@media screen and (min-width: 768px) {
+.overall .container .blue-con2 {
+  -webkit-clip-path: polygon(55% 95%, 96% 95%, 96% 45%, 100% 45%, 100% 78%, 100% 100%, 85% 100%, 56% 100%);
+          clip-path: polygon(55% 95%, 96% 95%, 96% 45%, 100% 45%, 100% 78%, 100% 100%, 85% 100%, 56% 100%);
+  background-color: #050528;
+  width: 91%;
+  height: 82vh;
+  bottom: 2%;
+  right: 8.8%;
+  position: absolute;
+}
+
+.overall .container .orange1 {
+  -webkit-clip-path: polygon(53% 100%, 100% 100%, 100% 61%, 99% 62%, 99% 99%, 92% 99%, 53% 99%);
+          clip-path: polygon(53% 100%, 100% 100%, 100% 61%, 99% 62%, 99% 99%, 92% 99%, 53% 99%);
+  width: 91%;
+  background-color: orange;
+  height: 82vh;
+  bottom: 7%;
+  right: 12.7%;
+  position: absolute;
+}
+
+.overall .container .orange2 {
+  -webkit-clip-path: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99% 100%, 100% 99%, 63% 99%);
+          clip-path: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99% 100%, 100% 99%, 63% 99%);
+  width: 91%;
+  background-color: orange;
+  height: 82vh;
+  bottom: 8.5%;
+  right: 14%;
+  position: absolute;
+}
+
+.overall .first-border2 {
+  -webkit-clip-path: polygon(100% 43%, 99% 42%, 99% 99%, 69% 99%, 69% 100%, 100% 100%);
+          clip-path: polygon(100% 43%, 99% 42%, 99% 99%, 69% 99%, 69% 100%, 100% 100%);
+  background-color: orange;
+  width: 91%;
+  height: 82vh;
+  bottom: 0.7%;
+  right: 7%;
+  position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
   .overall {
-    width: 70%;
+    background-color: whitesmoke;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 96%;
+    height: auto;
     position: relative;
-    padding: 3rem;
+    -webkit-box-shadow: 2px 2px 2px 2px gray, -2px -2px 2px 2px gray;
+            box-shadow: 2px 2px 2px 2px gray, -2px -2px 2px 2px gray;
+    margin-top: 3rem;
+  }
+  .overall .first-border {
+    -webkit-clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
+            clip-path: polygon(0 74%, 0 0, 35% 0%, 52% 0, 52% 1%, 1% 1%, 1% 75%);
+    background-color: orange;
+    width: 91%;
+    height: 60vh;
+    position: absolute;
+    left: 4%;
+    top: 0.1%;
+    padding-top: 3rem;
+  }
+  .overall .container {
+    border: 2px solid orange;
+    width: 80%;
+    margin: 1.5rem 0;
+  }
+  .overall .container .blue-con {
+    -webkit-clip-path: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
+            clip-path: polygon(0 26%, 0 0, 35% 0%, 53% 0, 53% 5%, 5% 5%, 5% 44%, 0 44%);
+    background-color: #050528;
+    width: 85%;
+    height: 80vh;
+    position: absolute;
+    top: 1.5%;
+    left: 6%;
+  }
+  .overall .container .orange-con1 {
+    -webkit-clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+            clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+    background-color: orange;
+    width: 75%;
+    height: 80vh;
+    position: absolute;
+    top: 7%;
+    left: 11%;
+  }
+  .overall .container .orange-con2 {
+    -webkit-clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+            clip-path: polygon(0 35%, 0 0, 35% 0%, 71% 0, 71% 1%, 1% 1%, 1% 35%);
+    background-color: orange;
+    width: 70%;
+    height: 80vh;
+    position: absolute;
+    left: 13%;
+    top: 8.4%;
+  }
+  .overall .container .proud {
+    font-size: 1rem;
+    margin: 2rem 2rem;
+    letter-spacing: 0px;
+    font-weight: 500;
+  }
+  .overall .container .logo-photo-cotainer {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 2rem 0;
+  }
+  .overall .container .logo-photo-cotainer .logo {
+    max-width: 54%;
+  }
+  .overall .container .logo-photo-cotainer .passport {
+    max-width: 50%;
+  }
+  .overall .container .logo-photo-cotainer .certi {
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .overall .container .logo-photo-cotainer .certi div {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+  .overall .container .logo-photo-cotainer .certi span {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
+  .overall .container .user-name hr {
+    width: 300px;
+  }
+  .overall .container .user-name span {
+    font-family: "Allura", cursive;
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+  }
+  .overall .container .date-signature {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-weight: 600;
+    margin: 3rem;
+  }
+  .overall .container .comment {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10px;
+    margin: 10px;
+  }
+  .overall .container .comment p {
+    width: 65%;
+    font-size: 16px;
+  }
+  .overall .container .blue-con2 {
+    -webkit-clip-path: polygon(55% 95%, 96% 95%, 96% 45%, 100% 45%, 100% 78%, 100% 100%, 85% 100%, 56% 100%);
+            clip-path: polygon(55% 95%, 96% 95%, 96% 45%, 100% 45%, 100% 78%, 100% 100%, 85% 100%, 56% 100%);
+    background-color: #050528;
+    width: 91%;
+    height: 82vh;
+    bottom: 2%;
+    right: 8.8%;
+    position: absolute;
+  }
+  .overall .container .orange1 {
+    -webkit-clip-path: polygon(53% 100%, 100% 100%, 100% 61%, 99% 62%, 99% 99%, 92% 99%, 53% 99%);
+            clip-path: polygon(53% 100%, 100% 100%, 100% 61%, 99% 62%, 99% 99%, 92% 99%, 53% 99%);
+    width: 91%;
+    background-color: orange;
+    height: 82vh;
+    bottom: 7%;
+    right: 12.7%;
+    position: absolute;
+  }
+  .overall .container .orange2 {
+    -webkit-clip-path: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99% 100%, 100% 99%, 63% 99%);
+            clip-path: polygon(63% 100%, 100% 100%, 100% 63%, 99% 64%, 99% 100%, 100% 99%, 63% 99%);
+    width: 91%;
+    background-color: orange;
+    height: 82vh;
+    bottom: 8.5%;
+    right: 14%;
+    position: absolute;
+  }
+  .overall .first-border2 {
+    -webkit-clip-path: polygon(100% 43%, 99% 42%, 99% 99%, 69% 99%, 69% 100%, 100% 100%);
+            clip-path: polygon(100% 43%, 99% 42%, 99% 99%, 69% 99%, 69% 100%, 100% 100%);
+    background-color: orange;
+    width: 91%;
+    height: 82vh;
+    bottom: 0.7%;
+    right: 7%;
+    position: absolute;
   }
 }
 /*# sourceMappingURL=certit.css.map */
