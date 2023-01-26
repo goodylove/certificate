@@ -321,7 +321,7 @@
     font-weight: 500;
   }
   .overall .container .user-name hr {
-    width: 300px;
+    width: 250px;
   }
   .overall .container .user-name span {
     font-family: "Allura", cursive;
@@ -334,8 +334,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
